@@ -26,9 +26,7 @@
     ];
 
     // initialisation du tableau des notes
-    $notes = [
-      2, 2, 14, 10, 10, 20, 2, 10, 10, 20
-    ];
+    $notes = [2, 2, 14, 10, 10, 20, 2, 10, 10, 20];
 
     // on s'assure que les deux tableaux sont de même longueur
     if (count($etudiants) != count($notes))
@@ -55,7 +53,7 @@
     ";
 
     // pour chaque étudiant, on crée une ligne dans le tableau
-    // et on y afficher le nom et la note
+    // et on y affiche le nom et la note
     for ($i = 0; $i < count($etudiants); $i++)
     {
       echo "
